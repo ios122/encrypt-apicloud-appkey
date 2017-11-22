@@ -1,0 +1,31 @@
+{
+  "name": "encrypt-apicloud-appkey",
+  "version": "1.0.0",
+  "description": "生成加密的 APICloud  appKey，非常实用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ios122/encrypt-apicloud-appkey.git"
+  },
+  "keywords": [
+    "apicloud",
+    "appkey",
+    "sha1"
+  ],
+  "author": "颜风",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ios122/encrypt-apicloud-appkey/issues"
+  },
+  "homepage": "https://github.com/ios122/encrypt-apicloud-appkey#readme",
+  "bin": {
+    "encrypt-apicloud-appkey": "index.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "sha1": "^1.1.1"
+  }
+}
